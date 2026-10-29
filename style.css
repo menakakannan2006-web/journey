@@ -1,0 +1,220 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+
+}
+.navbar{
+    padding:10px;
+    display: flex;
+    justify-content:space-between ;
+    border-bottom:solid black 1px ;
+    gap:10px;
+
+}
+.search-box{
+    flex:1;
+    display: flex;
+    align-items:center ;
+    border:1px solid #777;
+    border-radius: 8px;
+    padding: 8px 12px;
+    max-width: 800px;
+}
+
+
+.navbar__s1__title{
+    color:lightseagreen;
+    gap:5px ;
+}
+
+
+
+.navbar__s2{
+    padding: 10px;
+    border:solid black 1px;
+    border-radius:10px;
+    width:50%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+        flex:1;
+    border:1px solid #777;
+    max-width: 800px;
+    
+}
+.navbar__s2 input{
+    border:none;
+    width:70%;
+    width: 100%;
+    border:none;
+    outline: none;
+    background:transparent;
+    padding-left: 10px;
+    font-size:16px ;
+}
+.navbar__s2 input:focus{
+    outline:none;
+
+}
+.navbar__s3{
+    margin-right:30px ;
+    margin-top:10px ;
+    
+}
+.navbar__s3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    width:30px;
+    gap:10px;
+}
+.categories{
+    padding:15px 0;
+    display: flex;
+    justify-content:space-between;
+    
+    border-radius:20px ;
+    gap:12px;
+    overflow-x:auto ;
+    align-items:center ;
+    border-bottom: solid black 1px;
+
+}
+.category-btn{
+    background-color:aquamarine;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 20px;
+    font-weight:500 ;
+    cursor: pointer;
+    white-space:nowrap;
+    transition:all 0.2s ease ;
+    border-radius:10px ;
+    
+}
+.category-btn i{
+    gap: 5px;
+}
+.category-btn:hover{
+    background-color:yellow;
+}
+.image img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+
+}
+.recommended{
+    padding: 10px;
+    border: solid black 3px;
+}
+.recommended__container{
+    display: flex;
+    justify-content: space-between;
+;
+
+}
+.course-card{
+    width:20%;
+}
+.course-card img{
+    width: 100%;
+    height: 50%;
+}
+.moments{
+    padding: 10px;
+}
+.moments-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px ;   
+    border:2px solid black;
+    padding: 10PX;
+    border-radius:8px;
+    background-color: black;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    object-fit: cover;
+
+}
+.travel-card{
+    width:31%;
+    border-bottom:5px solid black;
+    position: relative;
+}
+.travel-card h1{
+
+     background-color:rgb(243, 76, 15);
+     padding: 10px;
+     border-radius:50px ;
+     width: fit-content;
+     position:absolute ;
+     top: 0;
+ } 
+ .travel-card h4{
+    top: 0;
+    position:absolute ;
+    left: 45px;
+    top:25px;
+ } 
+ .travel-card h6{
+    bottom: 5px;
+    position:absolute;
+    color: white;
+ } 
+    
+
+.travel-card img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius:6px ;
+     
+}
+.review{
+    display: flex;
+    height: 70px;
+    margin-top: 100px;
+}
+.trust{
+    display: flex;
+    height: 70px;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+    width:100% ;
+    box-sizing: border-box;
+
+
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+
+}
+.footer__one p{
+    margin: 20px;
+
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20;
+    align-items: center;
+}
+
+
